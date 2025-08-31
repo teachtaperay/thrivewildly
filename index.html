@@ -238,6 +238,19 @@
                 });
             });
         });
+        // Google Analytics event tracking for TikTok embed link
+        document.addEventListener('DOMContentLoaded', function() {
+            const tiktokEmbedLink = document.querySelector('blockquote.tiktok-embed a');
+            if (tiktokEmbedLink) {
+                tiktokEmbedLink.addEventListener('click', function() {
+                    gtag('event', 'tiktok_embed_click', {
+                        'event_category': 'Engagement',
+                        'event_label': 'TikTok Embed Profile Link',
+                        'value': 1
+                    });
+                });
+            }
+        });
     </script>
 </body>
 </html>
