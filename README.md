@@ -6,7 +6,7 @@ This repository hosts the static website for Thrive Wildly LLC, a floral design 
 
 *   **HTML5 & CSS3:** For the core structure and styling.
 *   **Tailwind CSS:** A utility-first CSS framework used for rapid and custom UI development, ensuring a professional and responsive design without the need for extensive JavaScript.
-*   **Jotform/Square:** Embedded or linked for handling subscriptions, bloom bar bookings, and standard/custom order forms.
+*   **Jotform/Square:** Embedded or linked for handling subscriptions, bloom bar bookings, and order forms. Standard orders link out to Square at `https://thrive-wildly-floral-design.square.site`, while the custom order form remains embedded.
 
 ## Purpose
 
